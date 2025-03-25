@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Intership Registration Form</title>
+    </head>
+    <body>
+        <h1>TCS</h1>
+        <body bgcolor="lightpink">
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>Personal Information:</h3>
+                </legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" required placeholder="First Name">
+                    <input type="text" required placeholder="Middle Name">
+                    <input type="text" required placeholder="Last Name"><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required /><br>
+                    <label for="contact">Mobile Number:</label>
+                    <input type="text" required/><br>
+                    <label>Gender:</label>
+                    <div class="gender-group">
+                        <input type="radio" name="gender" value="male" id="male" required />
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="female" id="female" />
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="others" id="others" />
+                        <label for="others">Others</label>
+                    </div>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required /><br>
+                    <input type="text" required placeholder="dd">
+                    <input type="text" required placeholder="mm">
+                    <input type="text" required placeholder="yyyy"><br>
+                    <label for="age">Age:</label>
+                   <input type="age" required/><br> 
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" required></textarea><br>
+                    <label>select your state</label>
+                    <div class="state-group">
+                    <select>
+                        <option> ------------select state-----------</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Maharashtra</option>
+                        <option>Gujarat</option>
+                        <option>Tamil-Nadu</option>
+                        <option>Manipur</option>
+                        <option>Uttarkhand</option>
+                        <option>Rajasthan</option>
+                        <option>Punjab</option>
+                    </select>
+                    </div>
+                    <label>select your city</label>
+                    <div class="city-group">
+                    <select>
+                        <option> ------------select city-----------</option>
+                        <option>Hyderabad</option>
+                        <option>Mumbai</option>
+                        <option>Bengaluru</option>
+                        <option>Pune</option>
+                        <option>Kolkata</option>
+                        <option>Delhi</option>
+                        <option>Chennai</option>
+                    </select>
+                    </div>
+                    <label>List your available hours for work:</label>
+                    <div class="work time - group">
+                    <input type="radio" name="work time" value="8" id="8" required/>
+                    <label for="8">8</label>
+                    <input type="radio" name="work time" value="9" id="9" required/>
+                    <label for="9">9</label>
+                    <input type="radio" name="work time" value="10" id="10" required/>
+                    <label for="10">10</label>
+                    </div>
+                    <legend><h3>EDUCATIONAL INFORMATION:</h3></legend>
+                    <label for="name">Name Of College:</label>
+                    <input type="text" id="name" name="college" required/><br>
+                    <label for="address">Address Of College:</label>
+                    <input type="text" id="address" name="college" required/><br>
+                    <label>Select your Branch:</label>
+                    <div class="branch-group">
+                    <input type="checkbox" />CSE  
+                    <input type="checkbox" />IT 
+                    <input type="checkbox" />MTech
+                    <input type="checkbox" />ETC 
+                    <input type="checkbox" />DS
+                    <input type="checkbox" />Civil<br>
+                   
+                    <legend><h3>UPLOAD DOCUMENTS:</h3></legend>
+                    <label for="photo">Self photo:</label>
+                    <input type="file" required/><br>
+                    <label for="photo">Signature photo:</label>
+                    <input type="file" required/><br>
+                    <label for="photo">Resume:</label>
+                    <input type="file" required/><br> 
+                    <label for="photo">AAdhar Card:</label>
+                    <input type="file" required/><br>
+
+                    <input type="submit" value="Submit" />
+                    </fieldset>
+        </form>   
+        </body>
+               </form>
+        </body>
+        </html> 
